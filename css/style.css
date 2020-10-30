@@ -56,7 +56,6 @@ h1{
  	margin-top: 80px;
  	margin-bottom: 80px;
  }
- 
  .product_price1{
  	text-align: center;
  }
@@ -66,13 +65,12 @@ h1{
  	justify-content: space-between;
  }
  @media (max-width: 786px) {
-  #div_image_price {
+  #div_image_price, #boutons_page_produits  {
     display: flex;
  	flex-direction: column;
  	justify-content: space-around;
   }
 }
-
  /*  //////////////////////////////// page produits  ////////////////////////////////////////*/
 
 #boutons_page_produits, .product_color2{
@@ -90,9 +88,12 @@ button{
 	width: 160px;
 }
 #product_couleur{
-	width: 80px;
+	width: 120px;
+	text-align: center;
 }
-
+option{
+	text-align: center;
+}
 /*    ///////////////////////////////// page panier  ///////////////////////////////////// */
 
 #liste_articles{
@@ -135,7 +136,9 @@ button{
 #product_list2{
 	color: brown;
 }
-
+#contact_nom, #contact_prenom, #contact_ville, #contact_adresse, #contact_email{
+	text-align: center;
+}
 
 input:valid {
   border: 2px solid black;

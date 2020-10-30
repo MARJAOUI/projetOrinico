@@ -61,7 +61,6 @@ function displayProductDetails(response){
     productList.append(productDescription);
     productList.append(productId);
     productList.append(productColor);
-    productSelect.append(colorOption);
 
     
 }
