@@ -15,7 +15,7 @@ body{
 	text-decoration: none;
 	 background-image: linear-gradient(to right, #eec69c 30%, #a466c0 50%, #945dee 100%);
 }
-#marge_haute{
+.marge_haute{
 	margin-top: 30px;
 }
  .main{
