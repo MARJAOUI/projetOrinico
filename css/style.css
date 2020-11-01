@@ -18,6 +18,9 @@ body{
 .marge_haute{
 	margin-top: 30px;
 }
+.marge_basse{
+	margin-bottom: 30px;
+}
  .main{
  	background-color: #f1e9d5;
  }
